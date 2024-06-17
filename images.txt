@@ -1,10 +1,5 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
 eipwork/nfs-subdir-external-provisioner:v4.0.2
-docker.io/calico/cni:v3.25.0
-docker.io/calico/node:v3.25.0
-docker.io/calico/kube-controllers:v3.25.0
+calico/cni:v3.8.9
+calico/node:v3.8.9
+calico/pod2daemon-flexvol:v3.8.9
+calico/kube-controllers:v3.8.9
