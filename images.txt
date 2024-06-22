@@ -1,1 +1,2 @@
 kubesphere/kubectl:v1.22.0
+kubesphere/metrics-server:v0.4.2
